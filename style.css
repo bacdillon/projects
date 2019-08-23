@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500,700');
+@import url('https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day');
+
+/* navigation */
+.navbar-default {
+  border-radius: 0;
+}
+
+.navbar-default, 
+.navbar-collapse {
+  border: 0;
+}
+
+.navbar-default, 
+.navbar-header {
+  padding: 5px 0;
+  background-color: #000;
+}
+
+header .navbar-default .navbar-nav a:hover,
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+nav li {
+  background-color: #FCFAF9;
+}
+
+body
+{
+  background-color: #FCFAF9;
+}
+/* content */
+.content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page {
+  padding-top: 50px;
+  margin-bottom: -10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+p
+{
+  font-size: 20px;
+}
+
+
+/* about */
+.profile-photo {
+  border-radius: 70%;
+  max-width: 180px;
+}
+
+
+/* project */
+.first-row {
+  padding-bottom: 10px;
+}
+
+
+/* footer */
+.social-media {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.social-media span {
+  padding: 10px 15px 10px 0;
+}
+
+#contact p {
+  margin-bottom: 0;
+}
+
+.footer p {
+  color: #777;
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 15px 0
+}
+
+
+/* typography */
+h1, 
+.nav a {
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Dawning of a New Day", cursive;
+  font-size: 30px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.nav a {
+  font-weight: 500;
+}
+
+
+/* media queries */
+@media (min-width: 460px) {
+  .about {
+    max-width: 450px;
+  }
+  .profile-photo {
+    max-width: 200px;
+  }
+  .navbar-brand {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 550px;
+  }
+  #about h1 {
+    margin-bottom: -12px;
+  }
+  .first-row {
+    padding-bottom: 15px;
+  }
+  nav li {
+    background-color: #000;
+  }
+  .navbar-right {
+    padding-top: 5px;
+  }
+}
+
