@@ -6,12 +6,12 @@
   border-radius: 0;
 }
 
-.navbar-default, 
+.navbar-default,
 .navbar-collapse {
   border: 0;
 }
 
-.navbar-default, 
+.navbar-default,
 .navbar-header {
   padding: 5px 0;
   background-color: #000;
@@ -23,12 +23,14 @@ header .navbar-default .navbar-nav a:hover,
 }
 
 nav li {
-  background-color: #FCFAF9;
+  /* background-color: #FCFAF9; */
+  background-color: #fff;
 }
 
 body
 {
-  background-color: #FCFAF9;
+  /* background-color: #FCFAF9; */
+  background-color: : #fff;
 }
 /* content */
 .content {
@@ -91,7 +93,7 @@ p
 
 
 /* typography */
-h1, 
+h1,
 .nav a {
   font-family: "Quicksand", sans-serif;
 }
@@ -142,4 +144,3 @@ h1 {
     padding-top: 5px;
   }
 }
-
